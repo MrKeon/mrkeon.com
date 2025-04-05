@@ -91,6 +91,12 @@ function Projects({ innerRef }) {
             </h3>
             <p className="text-gray-600">A ts-node app that can convert a .m3u8 url to a local MP4 file using FFmpeg.</p>
           </li>
+          <li className="bg-white p-6 shadow rounded-xl">
+            <h3 className="text-xl font-semibold mb-2">
+              <a href="https://github.com/MrKeon/mrkeon.com" className="text-teal-700 hover:underline" aria-label="View this website project">This Website</a>
+            </h3>
+            <p className="text-gray-600">A simple static webpage to showcase your projects and share contact information.</p>
+          </li>
         </ul>
       </div>
     </motion.section>
