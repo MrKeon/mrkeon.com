@@ -105,7 +105,7 @@ function Contact({ innerRef }) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ duration: 0.6, delay: 0.6 }}
+      transition={{ duration: 0.6, delay: 0.15 }}
       variants={fadeIn}
       aria-labelledby="contact-heading"
     >
