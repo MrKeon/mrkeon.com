@@ -81,7 +81,8 @@ function Projects({ innerRef }) {
           </li>
           <li className="bg-white p-6 shadow rounded-xl">
             <h3 className="text-xl font-semibold mb-2">
-              <a href="https://www.achaemenidbrothers.com/" className="text-teal-700 hover:underline" aria-label="View Achaemenid Brothers project">Achaemenid Brothers</a>
+              {/* <a href="https://www.achaemenidbrothers.com/" className="text-teal-700 hover:underline" aria-label="View Achaemenid Brothers project">Achaemenid Brothers</a> */}
+              <a href="https://github.com/MrKeon/abros" className="text-teal-700 hover:underline" aria-label="View Achaemenid Brothers project">Achaemenid Brothers</a>
             </h3>
             <p className="text-gray-600">A static website for Achaemenid Brothers carpentry business.</p>
           </li>
