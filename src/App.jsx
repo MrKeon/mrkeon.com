@@ -98,6 +98,12 @@ function Projects({ innerRef }) {
             </h3>
             <p className="text-gray-600">A simple static webpage to showcase your projects and share contact information.</p>
           </li>
+          <li className="bg-white p-6 shadow rounded-xl">
+            <h3 className="text-xl font-semibold mb-2">
+              <a href="https://github.com/MrKeon/file-transfer" className="text-teal-700 hover:underline" aria-label="View this website project">LAN FTP Server</a>
+            </h3>
+            <p className="text-gray-600">A simple FTP server that allows you to move files between devices on the same LAN. Bonus QR code generator!</p>
+          </li>
         </ul>
       </div>
     </motion.section>
